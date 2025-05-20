@@ -1,0 +1,65 @@
+.contact-page {
+    padding: 50px 0;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6); 
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.1);
+}
+.admin-products {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.admin-products h2 {
+    font-size: 32px;
+    color: #555;
+}
+.contact-page .row {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+.contact-container {
+    background: rgba(255,255,255,0.4);
+    width: 400px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 35px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.contact-container input,
+.contact-container textarea {
+    width: 80%;
+    height: 55px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.5);
+    border: none;
+    border-bottom: 1px solid #00000074;
+}
+.contact-container input:focus {
+    border-bottom: 2px solid #ff523b;
+}
+.contact-container textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #ff523b;
+}
+.contact-container textarea {
+    max-width: 80%;
+    min-height: 55px;
+    min-width: 60%;
+    max-height: 85px;
+}
+
+.contact-container .btn {
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.contact-container .btn:focus {
+    outline: none;
+}
